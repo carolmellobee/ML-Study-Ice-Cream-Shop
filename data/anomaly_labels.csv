@@ -1,0 +1,66 @@
+je_id,case_id,anomaly_type,explanation
+JE101505,DUP-1,duplicate_payment,Invoice CBD-6198 entered a second time as 'CBD-6198A' and paid again.
+JE101506,DUP-1,duplicate_payment,Invoice CBD-6198 entered a second time as 'CBD-6198A' and paid again.
+JE101507,DUP-2,duplicate_payment,Invoice CBD-6212 entered a second time as 'CBD-06212' and paid again.
+JE101508,DUP-2,duplicate_payment,Invoice CBD-6212 entered a second time as 'CBD-06212' and paid again.
+JE101509,DUP-3,duplicate_payment,Invoice CBD-6416 entered a second time as 'CBD-6416-1' and paid again.
+JE101510,DUP-3,duplicate_payment,Invoice CBD-6416 entered a second time as 'CBD-6416-1' and paid again.
+JE101511,DUP-4,duplicate_payment,Invoice PSC-8713 entered a second time as 'PSC8713' and paid again.
+JE101512,DUP-4,duplicate_payment,Invoice PSC-8713 entered a second time as 'PSC8713' and paid again.
+JE101513,DUP-5,duplicate_payment,Invoice CBD-5096 entered a second time as 'CBD-5096 ' and paid again.
+JE101514,DUP-5,duplicate_payment,Invoice CBD-5096 entered a second time as 'CBD-5096 ' and paid again.
+JE101515,SPLIT-1,split_below_threshold,"One repair job billed as two invoices just below the $5,000 approval limit."
+JE101516,SPLIT-1,split_below_threshold,"One repair job billed as two invoices just below the $5,000 approval limit."
+JE101517,SPLIT-1,split_below_threshold,"One repair job billed as two invoices just below the $5,000 approval limit."
+JE101518,SPLIT-1,split_below_threshold,"One repair job billed as two invoices just below the $5,000 approval limit."
+JE101519,SPLIT-2,split_below_threshold,"One repair job billed as two invoices just below the $5,000 approval limit."
+JE101520,SPLIT-2,split_below_threshold,"One repair job billed as two invoices just below the $5,000 approval limit."
+JE101521,SPLIT-2,split_below_threshold,"One repair job billed as two invoices just below the $5,000 approval limit."
+JE101522,SPLIT-2,split_below_threshold,"One repair job billed as two invoices just below the $5,000 approval limit."
+JE101523,SPLIT-3,split_below_threshold,"One repair job billed as two invoices just below the $5,000 approval limit."
+JE101524,SPLIT-3,split_below_threshold,"One repair job billed as two invoices just below the $5,000 approval limit."
+JE101525,SPLIT-3,split_below_threshold,"One repair job billed as two invoices just below the $5,000 approval limit."
+JE101526,SPLIT-3,split_below_threshold,"One repair job billed as two invoices just below the $5,000 approval limit."
+JE101527,SPLIT-4,split_below_threshold,"One repair job billed as two invoices just below the $5,000 approval limit."
+JE101528,SPLIT-4,split_below_threshold,"One repair job billed as two invoices just below the $5,000 approval limit."
+JE101529,SPLIT-4,split_below_threshold,"One repair job billed as two invoices just below the $5,000 approval limit."
+JE101530,SPLIT-4,split_below_threshold,"One repair job billed as two invoices just below the $5,000 approval limit."
+JE101531,GHOST-1,ghost_vendor,"Vendor with no history, invoices just under the approval limit, paid within days."
+JE101532,GHOST-1,ghost_vendor,"Vendor with no history, invoices just under the approval limit, paid within days."
+JE101533,GHOST-1,ghost_vendor,"Vendor with no history, invoices just under the approval limit, paid within days."
+JE101534,GHOST-1,ghost_vendor,"Vendor with no history, invoices just under the approval limit, paid within days."
+JE101535,GHOST-1,ghost_vendor,"Vendor with no history, invoices just under the approval limit, paid within days."
+JE101536,GHOST-1,ghost_vendor,"Vendor with no history, invoices just under the approval limit, paid within days."
+JE101537,GHOST-1,ghost_vendor,"Vendor with no history, invoices just under the approval limit, paid within days."
+JE101538,GHOST-1,ghost_vendor,"Vendor with no history, invoices just under the approval limit, paid within days."
+JE101539,GHOST-1,ghost_vendor,"Vendor with no history, invoices just under the approval limit, paid within days."
+JE101540,GHOST-1,ghost_vendor,"Vendor with no history, invoices just under the approval limit, paid within days."
+JE101541,GHOST-1,ghost_vendor,"Vendor with no history, invoices just under the approval limit, paid within days."
+JE101542,GHOST-1,ghost_vendor,"Vendor with no history, invoices just under the approval limit, paid within days."
+JE101543,OFFHRS-1,off_hours_manual,Manual cash entry posted by the bookkeeper close to midnight on a Sunday.
+JE101544,OFFHRS-2,off_hours_manual,Manual cash entry posted by the bookkeeper close to midnight on a Sunday.
+JE101545,OFFHRS-3,off_hours_manual,Manual cash entry posted by the bookkeeper close to midnight on a Sunday.
+JE101546,OFFHRS-4,off_hours_manual,Manual cash entry posted by the bookkeeper close to midnight on a Sunday.
+JE101547,ROUND-1,round_dollar_reclass,"Large round-dollar cash entry, vague description, approved by its own author."
+JE101548,ROUND-2,round_dollar_reclass,"Large round-dollar cash entry, vague description, approved by its own author."
+JE101549,ROUND-3,round_dollar_reclass,"Large round-dollar cash entry, vague description, approved by its own author."
+JE101550,ROUND-4,round_dollar_reclass,"Large round-dollar cash entry, vague description, approved by its own author."
+JE101551,REVCUT-1,period_end_revenue,Revenue booked on the last day of a quarter and reversed days later.
+JE101552,REVCUT-1,period_end_revenue,Revenue booked on the last day of a quarter and reversed days later.
+JE101553,REVCUT-2,period_end_revenue,Revenue booked on the last day of a quarter and reversed days later.
+JE101554,REVCUT-2,period_end_revenue,Revenue booked on the last day of a quarter and reversed days later.
+JE101555,REVCUT-3,period_end_revenue,Revenue booked on the last day of a quarter and reversed days later.
+JE101556,REVCUT-3,period_end_revenue,Revenue booked on the last day of a quarter and reversed days later.
+JE101557,USER-1,unusual_user_account,Shift manager with petty-cash-only duties reverses sales against the bank account.
+JE101558,USER-2,unusual_user_account,Shift manager with petty-cash-only duties reverses sales against the bank account.
+JE101559,USER-3,unusual_user_account,Shift manager with petty-cash-only duties reverses sales against the bank account.
+JE101560,LATE-1,post_close_entry,"Entry dated into a closed month, created 33 days after month-end."
+JE101561,LATE-2,post_close_entry,"Entry dated into a closed month, created 41 days after month-end."
+JE101562,LATE-3,post_close_entry,"Entry dated into a closed month, created 27 days after month-end."
+JE101563,LATE-4,post_close_entry,"Entry dated into a closed month, created 48 days after month-end."
+JE101564,PERS-1,personal_expense,A marina slip fee booked as shop repairs: a personal cost on the business.
+JE101565,PERS-1,personal_expense,A marina slip fee booked as shop repairs: a personal cost on the business.
+JE101566,PERS-1,personal_expense,A marina slip fee booked as shop repairs: a personal cost on the business.
+JE101567,PERS-1,personal_expense,A marina slip fee booked as shop repairs: a personal cost on the business.
+JE101568,PERS-1,personal_expense,A marina slip fee booked as shop repairs: a personal cost on the business.
+JE101569,PERS-1,personal_expense,A marina slip fee booked as shop repairs: a personal cost on the business.

@@ -1,0 +1,27 @@
+account,account_name,account_type
+1000,Cash - Operating,Asset
+1010,Petty Cash,Asset
+1200,Accounts Receivable,Asset
+1500,Equipment,Asset
+1590,Accumulated Depreciation,Asset
+2000,Accounts Payable,Liability
+2100,Sales Tax Payable,Liability
+2200,Payroll Liabilities,Liability
+2300,Accrued Expenses,Liability
+3000,Owner's Equity,Equity
+3100,Owner Draws,Equity
+4000,Sales - Scoop Shop,Revenue
+4100,Sales - Catering,Revenue
+5000,COGS - Dairy & Ingredients,Expense
+5100,COGS - Cones & Packaging,Expense
+6000,Wages,Expense
+6010,Payroll Taxes,Expense
+6100,Rent,Expense
+6200,Utilities,Expense
+6300,Repairs & Maintenance,Expense
+6400,Marketing,Expense
+6500,Card Processing Fees,Expense
+6600,Insurance,Expense
+6700,Software & Subscriptions,Expense
+6800,Depreciation Expense,Expense
+6900,Office & Misc,Expense

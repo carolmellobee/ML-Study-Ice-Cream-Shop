@@ -1,0 +1,7 @@
+user_id,name,role,is_system
+pos_system,Point-of-sale nightly export,System,True
+payroll_svc,Payroll provider feed,System,True
+jlopez,Jamie Lopez,"Bookkeeper (AP, AR, bank)",False
+mchen,Morgan Chen,Staff accountant (month-end close),False
+dsmith,Dana Smith,Owner,False
+tpark,Taylor Park,Shift manager (petty cash only),False
